@@ -148,6 +148,8 @@ endif
 # LIBRARIES += glog gflags boost_system boost_filesystem m hdf5_hl hdf5 caffe
 LIBRARIES += glog gflags boost_system boost_filesystem m hdf5_hl hdf5
 
+LIBRARIES += zmq
+
 # handle IO dependencies
 USE_LEVELDB ?= 1
 USE_LMDB ?= 1
